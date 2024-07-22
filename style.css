@@ -1,0 +1,91 @@
+.jumbotron
+{
+    font-family: 'Pacifico';
+    background-color: #e3e2e1;
+    height: 20rem;
+    width: 40rem;
+    align-content: center;
+   padding-left: 3rem;
+   border-radius: 50px;
+   border-color: #000000;
+}
+.container h1
+{
+    font-family: 'Pacifico';
+    color: rgb(5, 62, 62);
+    text-decoration: underline;
+
+
+}
+.form-group
+{
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 1rem;
+    
+}
+.form-group label
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.form-group input
+{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 14px;
+    
+}
+
+.form-group #issueSeverityInput
+{
+    width: 60%;
+    height: 40px;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 14px;
+}
+
+
+.well {
+    /* Box model */
+    width: 200px;
+    
+    padding: 20px;
+    margin: 10px 10px 20px 25px;
+
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    /* Background and text */
+    background-color:#e3e2e1;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    /* Shadow and effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+   
+    
+    /* Transition */
+    transition: all 0.3s ease-in;
+
+    /* Other styles */
+    text-align: center;
+    cursor: pointer;
+}
+
+.well:hover {
+    transform: translateY(-3px);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.8);
+    background-color: #e0e0e0;
+}
+
+.btn-warning
+{
+    margin-right: 10px;
+}
